@@ -2,16 +2,16 @@
  'user_id': 's113',
  'conversation': [{'message_num': 0,
    'role': 'model',
-   'sentence_en': "Hello! 😸 I am SIMBA, and I will help you think about the following questions:\nIn your opinion, what are the 2 to 5 main ideas to remember from the course entitled 'Transformations and first principle'?\nWhat are the points of the course that still seem obscure to you?\nFeel free to share your reflections! 💡"},
+   'sentence_en': 'Hello! 😸 I am SIMBA, and I will help you think about the following questions:\nIn your opinion, what are the 2 to 5 main ideas to remember from the course entitled 'Transformations and first principle'?\nWhat are the points of the course that still seem obscure to you?\nFeel free to share your reflections! 💡'},
   {'message_num': 1,
    'role': 'user',
    'sentence_en': 'We saw the TV and PV diagrams with the critical point when it transitions from liquid to vapor, the boiling and dew curves and the supercritical state, then the thermodynamic tables which are tables that contain data.\nThen the PV=nRT deviation, the liquid-vapor mixture with the mass fraction x and we saw the methodology to determine a state.\nfinally we saw the principle of a steam engine cycle'},
   {'message_num': 2,
    'role': 'model',
-   'sentence_en': "Great, that's already a good summary! 💪\nYou have well covered many important ideas.\nCan you deepen your reflection a bit on these points:\nHow does the transition between liquid and vapor translate in the Pv and Tv diagrams?\nWhat is the impact of the critical point on the transformations of substances?\nWhy is it essential to understand the PV=nRT deviation in the context of thermodynamic transformations?\nThis could help you better grasp the concepts! 🌡️✨"},
-  {'message_num': 3, 'role': 'user', 'sentence_en': "I don't know"},
+   'sentence_en': 'Great, that's already a good summary! 💪\nYou have well covered many important ideas.\nCan you deepen your reflection a bit on these points:\nHow does the transition between liquid and vapor translate in the Pv and Tv diagrams?\nWhat is the impact of the critical point on the transformations of substances?\nWhy is it essential to understand the PV=nRT deviation in the context of thermodynamic transformations?\nThis could help you better grasp the concepts! 🌡️✨'},
+  {'message_num': 3, 'role': 'user', 'sentence_en': 'I don't know'},
   {'message_num': 4,
    'role': 'model',
-   'sentence_en': "No worries, I'm here to help you! 😺\nWhen you look at a Tv or Pv diagram, the transition between liquid and vapor is manifested by the boiling and dew curves.\nOn these diagrams, how do you think the different phases (liquid, vapor, and mixture) are represented?\nThe critical point is the moment when the distinction between liquid and vapor disappears.\nCan you imagine why this is important for thermodynamic applications, such as in thermal power plants?\nThis deviation represents a deviation from ideal conditions.\nHow would it be crucial to know this deviation when analyzing the performance of thermodynamic systems?\nThink about these points, it could clarify your ideas! 💡😊"}
+   'sentence_en': 'No worries, I'm here to help you! 😺\nWhen you look at a Tv or Pv diagram, the transition between liquid and vapor is manifested by the boiling and dew curves.\nOn these diagrams, how do you think the different phases (liquid, vapor, and mixture) are represented?\nThe critical point is the moment when the distinction between liquid and vapor disappears.\nCan you imagine why this is important for thermodynamic applications, such as in thermal power plants?\nThis deviation represents a deviation from ideal conditions.\nHow would it be crucial to know this deviation when analyzing the performance of thermodynamic systems?\nThink about these points, it could clarify your ideas! 💡😊'}
    ]
 }
