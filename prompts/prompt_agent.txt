@@ -1,0 +1,127 @@
+```json
+{
+  "annotations": [
+    {
+      "message_num": 0,
+      "utterances": [
+        {
+          "text": "Hello! 😸",
+          "annotation": "greeting"
+        },
+        {
+          "text": "I am SIMBA, and I will help you think about the following questions:",
+          "annotation": "offer"
+        },
+        {
+          "text": "In your opinion, what are the 2 to 5 main ideas to remember from the course entitled 'Transformations and first principle'?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "What are the points of the course that still seem obscure to you?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "Feel free to share your reflections! 💡",
+          "annotation": "suggest"
+        }
+      ]
+    },
+    {
+      "message_num": 1,
+      "utterances": [
+        {
+          "text": "We saw the TV and PV diagrams with the critical point when it transitions from liquid to vapor, the boiling and dew curves and the supercritical state, then the thermodynamic tables which are tables that contain data.",
+          "annotation": "inform"
+        },
+        {
+          "text": "Then the PV=nRT deviation, the liquid-vapor mixture with the mass fraction x and we saw the methodology to determine a state.",
+          "annotation": "inform"
+        },
+        {
+          "text": "Finally we saw the principle of a steam engine cycle.",
+          "annotation": "inform"
+        }
+      ]
+    },
+    {
+      "message_num": 2,
+      "utterances": [
+        {
+          "text": "Great, that's already a good summary! 💪",
+          "annotation": "autoPositive"
+        },
+        {
+          "text": "You have well covered many important ideas.",
+          "annotation": "autoPositive"
+        },
+        {
+          "text": "Can you deepen your reflection a bit on these points:",
+          "annotation": "request"
+        },
+        {
+          "text": "How does the transition between liquid and vapor translate in the Pv and Tv diagrams?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "What is the impact of the critical point on the transformations of substances?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "Why is it essential to understand the PV=nRT deviation in the context of thermodynamic transformations?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "This could help you better grasp the concepts! 🌡️✨",
+          "annotation": "suggest"
+        }
+      ]
+    },
+    {
+      "message_num": 3,
+      "utterances": [
+        {
+          "text": "I don't know",
+          "annotation": "disconfirm"
+        }
+      ]
+    },
+    {
+      "message_num": 4,
+      "utterances": [
+        {
+          "text": "No worries, I'm here to help you! 😺",
+          "annotation": "autoPositive"
+        },
+        {
+          "text": "When you look at a Tv or Pv diagram, the transition between liquid and vapor is manifested by the boiling and dew curves.",
+          "annotation": "inform"
+        },
+        {
+          "text": "On these diagrams, how do you think the different phases (liquid, vapor, and mixture) are represented?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "The critical point is the moment when the distinction between liquid and vapor disappears.",
+          "annotation": "inform"
+        },
+        {
+          "text": "Can you imagine why this is important for thermodynamic applications, such as in thermal power plants?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "This deviation represents a deviation from ideal conditions.",
+          "annotation": "inform"
+        },
+        {
+          "text": "How would it be crucial to know this deviation when analyzing the performance of thermodynamic systems?",
+          "annotation": "setQuestion"
+        },
+        {
+          "text": "Think about these points, it could clarify your ideas! 💡😊",
+          "annotation": "suggest"
+        }
+      ]
+    }
+  ]
+}
+```

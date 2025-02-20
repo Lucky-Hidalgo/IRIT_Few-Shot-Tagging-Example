@@ -1,0 +1,45 @@
+{
+    "Information-seeking": [
+      "propositionalQuestion (Yes/No)", "propositionalQuestion",
+      "setQuestion (Who/What/Where/How)", "setQuestion",
+      "choiceQuestion",
+      "checkQuestion"
+    ],
+    "Information-providing": [
+      "inform (Statement)", "inform",
+      "answer",
+      "agreement",
+      "disagreement",
+      "correction",
+      "confirm",
+      "disconfirm"
+    ],
+    "Commissive": [
+      "offer",
+      "conditionalAccept (Consider/Address a Request/Suggestion/Offer)", "conditionalAccept",
+      "accept (Request/Suggestion/Offer)", "accept",
+      "decline (Request/Suggestion/Offer)", "decline"
+    ],
+    "Directive": [
+      "request",
+      "suggest"
+    ],
+    "Feedback": [
+      "autoPositive (Positive Understanding/Feedback)", "autoPositive",
+      "autoNegative (Negative Understanding/Feedback)", "autoNegative"
+    ],
+    "Time Management": [
+      "stalling (Pausing)", "stalling"
+    ],
+    "Own and Partner Communication Management": [
+      "retraction (Abandon)", "retraction"
+    ],
+    "Social Obligations Management": [
+      "greeting",
+      "goodbye",
+      "thanking",
+      "acceptThanking",
+      "apology",
+      "acceptApology"
+    ]
+  }

@@ -1,0 +1,109 @@
+You are an expert annotator of utterances.
+Please split each sentence in the conversation utterances and **classify them** according to the given annotation guidelines. The guidelines:
+
+- **propositionalQuestion (Yes/No)**
+  - **Example:** “Does the meeting start at ten?”
+
+- **setQuestion (Who/What/Where/How)**
+  - **Example:** “What time does the meeting start?”; “How far is it to the station?”
+
+- **choiceQuestion**
+  - **Example:** “Should the telephone cable go in telephone line or in external line?”
+
+- **checkQuestion**
+  - **Example:** “The meeting starts at ten, right?”
+
+- **inform (Statement)**
+  - **Example:** “The 6.34 to Breda leaves from platform 2.”
+
+- **answer**
+  - **Example:** 
+    ```
+    S: “what does the display say?”
+    A: “Send error document ready.”
+    ```
+
+- **agreement**
+  - **Example:** “Exactly.”
+
+- **disagreement**
+  - **Example:** 
+    ```
+    S: “Do you know where to find the ink cartridge?”
+    A: “Oh I think to the left of the paper.”
+    S: “Uh... no.”
+    ```
+
+- **correction**
+  - **Example:** “To Montreal, not to Ottawa.”
+
+- **confirm**
+  - **Example:** “Indeed.”
+
+- **disconfirm**
+  - **Example:** “Nope.”
+
+- **offer**
+  - **Example:** “I will look that up for you.”
+
+- **conditionalAccept (Consider/Address a Request/Suggestion/Offer)**
+  - **Example:** 
+    ```
+    A: “Please give me the gun.”
+    S: “If you push the bag to me.”
+    ```
+
+- **accept (Request/Suggestion/Offer)**
+  - **Example:** 
+    ```
+    A: “Would you like help with that?”
+    S: “Sure.”
+    ```
+
+- **decline (Request/Suggestion/Offer)**
+  - **Example:** 
+    ```
+    A: “Would you like help with that?”
+    S: “No thank you.”
+    ```
+
+- **request**
+  - **Example:** “Please turn to page five”; “Please don’t do this ever again”; “Please drive very carefully”.
+
+- **suggest**
+
+  - **Example:** “Let’s wait for the speaker to finish.”
+
+- **autoPositive (Positive Understanding/Feedback)**
+  - **Example:** “Uh-huh”; “Okay”; “Yes”
+
+- **autoNegative (Negative Understanding/Feedback)**
+  - **Example:** “Sorry?”; “What?”
+
+- **stalling (Pausing)**
+  - **Example:** “Let me see...”; “Ehm...”; “Just a moment”; “Umm...”
+
+- **retraction (Abandon)**
+  - **Example:** “Then we’re going to g– ”
+
+- **greeting**
+  - **Example:** “Hello!”; “Good morning”
+
+- **goodbye**
+  - **Example:** “Bye bye, see you later.”
+
+- **thanking**
+  - **Example:** “Thanks a lot.”
+
+- **acceptThanking**
+  - **Example:** “Don’t mention it.”
+
+- **apology**
+  - **Example:** “Sorry about that.”
+
+- **acceptApology**
+  - **Example:** “No problem.”
+
+
+Please split each sentence and classify them accordingly. the input is in json, and the response should be STRICTLY in json format. 
+The label should be in a field called **annotation** and it should be present for every utterance.
